@@ -47,3 +47,4 @@ function AInput(props: {
 }
 
 export default AInput;
+export type { inputType };

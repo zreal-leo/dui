@@ -1,11 +1,22 @@
 {
-  "name": "dui",
-  "version": "0.1.0",
-  "files": [
-    "dist"
+  "name": "@luodc/dui",
+  "version": "0.1.4",
+  "description": "react components",
+  "keywords": [
+    "react",
+    "hook",
+    "ts"
   ],
-  "main": "./dist/DUI.umd.js",
-  "module": "./dist/DUI.es.js",
+  "homepage": "https://github.com/zreal-leo/dui",
+  "bugs": {
+    "url": "https://github.com/zreal-leo/dui/issues"
+  },
+  "license": "ISC",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "types": "types/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/DUI.es.js",
